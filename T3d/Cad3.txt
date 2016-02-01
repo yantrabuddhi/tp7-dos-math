@@ -1,0 +1,115 @@
+			Required Resources
+
+
+By Todays Standards
+Idealy a CAD software (for moderately complex designs) would require 
+large display(>19 inches), with a high resolution and colour depth 
+(1600*1200*1.6 million)(low eye fatigue,radiations), Large memory
+(>128 MB) and computational power (>500 Mflops) for a really good 
+Design capability.
+
+
+For our use, harware is to be selected to be easily availible and
+usable.. i.e information regarding use of harware and its programming
+should be availible easily.
+
+
+Display - 
+
+IBM PC provides with a standard EGA/VGA adaptor for graphics
+with capabilities of
+			300*200*256
+			and
+			640*480*16
+
+(vga- vedio graphics array)
+i.e xsize*ysize*colours
+
+ Both the modes are near useless for a good CAD
+
+300*200*256 has too low a resolution with the need of aspect ratio 
+correction as it does not match with general screen standard of 4:3.
+
+640*480*16 has only 16 colours and is too slow in access, thus
+unfit for good representation to eye and rendering etc.
+
+The New VESA (Vedio Electronics Standards Association) standard for
+high resolution SVGA(Super VGA) is today implemented in almost all
+graphics cards on all PC's... provides with various modes
+depending on capability of hardware(Screen, Graphics card, Vram).
+
+it may provide any desirable combimation of modes and colour depths
+resolutions of 640*480 to ones exceeding 1600*1200 at 8 to 24 bit colour 
+depth.
+
+To maintain compatibility to old system svga information is mapped into
+the old allotted 64KB memory area. Since svga information exceeds 64KB
+the svga card has its memory divided in 64KB banks which are paged to
+the old area on request by program.
+
+Resolutions of 
+	-	640*480*1.6million
+	-	800*600*64000
+	-	1024*768*256
+
+utilise less than 1MB of ram and are compatible with most of the display
+devices . The last two modes are most widely supported, even over laptops
+although larger no. of colours(24 bit) is very tempting in large variety 
+of possible colours in the display(True Colour Mode).
+
+
+Input devices -
+
+Keyboard and Mouse are the selected input devices as thier drivers are 
+readily availible for  for most Operating Systems.
+If another graphics device driver is found or device and driver is 
+designed by me for serial port it shall be added too.
+(like a 3D positionable robotic arm with mouse type click button for
+3D data input)
+
+
+Computer - 
+
+INTEL, AMD based IBM PC Clones are very popular ,cheap , easily availible,
+rich in literature with lots of operating systems and languages availible.
+Thus this shall be the natural choice.
+
+
+Operating System -
+
+Two most preffered OS's are
+
+	MS DOS - (Real mode OS)
+	MS WINDOWS9X - (Protected mode)
+
+PC's based on 386 and above have 2 modes Real and Protected.
+In real mode access is limited to 1MB of ram, program can access anything.
+In protected mode the OS decides if a program has the right to have access
+to any PC resource.
+For Todays applications MS DOS provides too little, but then it gives
+great flexibility and provides with all information to access any hardware
+while windows requires device drivers etc. for which information is
+very hard to find, also windows demands heavily on system.
+Thus MS DOS is chosen for initial development.
+
+
+Language-
+
+Several languages are  
+	MS DOS  -> Turbo PASCAL, c/c++, Assembly
+	Windows -> Delphi, VC/VC++, Win Assembly
+
+C++ is chosen for following reasons
+
+- Standardised to ANSI
+- Logic part, i.e non system specific code can be shared over different
+  systems
+- Large amount of availible litrature
+- Numerous good coding facilities ans structures
+	>>Object oriented
+	>>templates
+	>>streams
+	>>function,operator overloading
+	>>libraries
+
+(Some c++ compilers come with built in Assembler and code optimiser)

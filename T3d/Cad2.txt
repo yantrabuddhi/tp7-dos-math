@@ -1,0 +1,62 @@
+			Basic Techniques and Algorithms
+
+
+CAD programs today are mostly based on GUI system and mostly for GUI type
+operating systems.
+
+GUI (Graphical User Interface) greatly simplifies using a program by
+providing visual representaion for Tools, letting user better visualise
+what  he/she shall be doing to solve the design problem, reducing useless
+burden of meaningless command memorisation, minimising any burden on mind.
+
+In Generalised opinion CAD requires certain basic graphical representation
+techniques to be effective in visual representaion of problem.
+
+- Line drawing algorithms(2D,3D)
+
+- Co-ordinate system convertions(cartesian,cylendrical,spherical,
+				 curvilenear)
+
+- Circle, ellipse, sphere, ellipsoid algorithms
+
+- Polygon drawing and filling algorithms
+
+- Windowing Techniques and ViewPorts
+
+- Perspective, Oblique, Parallel projection
+
+- Surface modeling methods
+			>Wire-Frame , Wire Mesh
+			>Surface of revolution
+			>Tabulated wave of 2, 3D curves
+			>3D(N-D projected in 3d) functions(explicit, 
+							   implicit)
+
+- Rendering And Texture mapping
+			>Flat shading
+			>Gourad shading
+			>Phong shading
+			>Ray Tracing
+				  >>Ambeint light source
+				  >>Point light source
+				  >>Distributed light source(on surface)
+			>Picture format conversions(BMP,PCX)
+			>Material definition
+
+- Object Modeling and Definition File Interpretation
+
+- Numerical Methods Library
+			>High precision numbers
+			>Application of Calculus
+			>Analytic geometry
+			>Chaos theory, error level analysis
+			(over multiple calculations)
+			{avoid error in significant level}
+
+- Graphical input output library for hardware handling
+	(with aspect ratio etc correction if required)
+
+- Hardware Drivers or Libraries
+			>Screen
+			>Plotter/Printer
+			>Mouse 

@@ -1,0 +1,52 @@
+		Introduction to CAD
+
+
+CAD - (Computer Aided Design) is a general term in computers for a program
+that aids in designing of complex engineering or scientific models.
+
+A CAD may provide extremely simplified representation and application of
+large and complex algorithms or mathematical functions in form of 
+generelised tools.
+
+A Tool is thus a representation by name or image or both of a process that
+can be applied to do something.. like solving a problem or processing data.
+
+The user of a CAD is then only bothered with solving his problem with
+application of provided tools, he/she then needs to know only about what a
+tool is supposed to do or provide with rather than re-design every 
+required element by self for solving every new design problem.
+
+For example an electronics engineer need not design a new program with
+optimum mix from all fields like geometry,shortest path algorithms(graph 
+theory), 3d graphing, image rendering and colour coding, calculus, 
+Numerical methods, device modeling and databasing for including newer
+devices to be simulated about which complete study isn't yet done by
+designer, but the software gives a few characterstics and gives complete
+simulation under different conditions telling if the device is optimum or
+desirable... etc for every small circuit calculation program that
+simulates a different circuit, while CAD will provide for most of the
+requirements saving large amount of time and giving the designer more
+time to concentrate on the design problem just related to circuit itself,
+and good enough tools to give a very good picture of design performance.
+
+CAD has a major advantage over conventional methods of reducing largely
+the cost and time and resource exhaustion in development of a design.
+The quality, ease and accuracy of design are greatly enhanced without
+burdening the designer to put any more effort, greatly reducing fatigue
+giving user a greater creative insight to design and more scope for
+improvement.
+
+CAD is a very general term, and there are various catagories belonging
+to specific areas or for generalised design..
+
+few examples of CAD programs...
+
+- Mathematics CAD        - Mathematica(Wolfarm research)
+- 3D Mechanical CAD      - Mechanical Desktop
+- Electronic device      - SPICE, PSPICE
+  modeling ang simulation
+- 3D Animation CAD	 - 3D Studio MAX
+- General and 		 - AutoCAD
+  Architechtural
+
+and various others...

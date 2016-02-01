@@ -1,0 +1,10 @@
+Mathkit program is incapable of ^ func as it can't evaluate negative num 
+raised  to power, hence can't give graph for (-1)^X.
+Hence solution lies in creating modifications to calculate powers 
+differently than by exp(pow*ln())
+Also evaluation unit is too slow so speed up with several techniques 
+including postfix -> infix
+also see that raised to func can't give even root of neg nums in real number 
+mode so give unreal err for that & include complex
+& vector calcs with number base set eg: binary, hex etc.. options
+3-d graphs with texture fill, light effect for more visibility(more colors)

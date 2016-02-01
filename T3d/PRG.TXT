@@ -1,0 +1,13 @@
+set_meshmode off
+set_draw_color 8
+line -50,-50,-50,50,50,50
+set_draw_color 10
+set_plot_eqn x*y
+set_plot_range -1,1,-10,10,4,4
+set_axis_range -20,20,-20,20,-300,300
+set_draw_cube_angles -1.0,1.0,0
+plot
+set_meshmode on
+set_draw_color 80
+set_rgb 20,40,10
+plot
